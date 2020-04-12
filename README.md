@@ -1,5 +1,5 @@
 # About This Project
-Inspired by Cloudflare's [LavaRand](https://blog.cloudflare.com/lavarand-in-production-the-nitty-gritty-technical-details/), this project is a conceptual implementation of how to stream an image data taken from a webcam to feed the system entropy pool (*/dev/urandom*). The goal of this project is to flood the entropy pool with more random data which can be used for cryptographycally secure random number generator. **Keep in mind that since this is just a conceptual, the implementation itself might be imperfect and inefficient.**
+Inspired by Cloudflare's [LavaRand](https://blog.cloudflare.com/lavarand-in-production-the-nitty-gritty-technical-details/), this project is a conceptual implementation of how to stream an image data taken from a webcam to feed the system entropy pool (*/dev/urandom*). The goal of this project is to flood the entropy pool with more random data which can be used for cryptographycally secure random number generator. **Keep in mind that since this is just a conceptual, this project might consists of an imperfect and inefficient implementation.**
 
 The project consists of 3 programs:
 - `stream`: The main program which streams image data captured from the webcam into */dev/urandom* entropy pool
