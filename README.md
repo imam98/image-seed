@@ -10,6 +10,7 @@ The project consists of 3 programs:
 To make this work, a webcam is required to capture an image of external environment. The captured image will be read as a multichannel matrix which represents pixel values in every color channels (red, green, blue). Let's say that the matrix is called an "image matrix". The next step is to split the channels within the image matrix into individual matrix and stream the value concurrently into the entropy pool. The purpose of this concurrent streaming is to take advantage of race condition, thus add more chaotic factor to the entropy pool.
 
 Below is the diagram which represents the flow of the stream process.
+
 ![streamer-flow](streamer-flow.png "Streamer work flow")
 
 ## Dependency
